@@ -13,7 +13,7 @@ module.exports.prod = function(req, res){
 
   /* GET registration page */
   module.exports.reg = function(req, res){
-    res.render('reg1', { page: 'reg' });
+    res.render('reg', { page: 'reg' });
   };
 
     /* GET products page */
